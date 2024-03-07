@@ -40,7 +40,7 @@ with st.sidebar:
 
     st.subheader("Geological Map Quality")
     st.markdown("Significantly affects the performance.")
-    map_quality = st.selectbox("Quality", ["Medium", "Low"])
+    map_quality = st.selectbox("Quality", ["Low", "Medium"])
 
     if map_quality == "Medium":
         map_quality_str = "mq"
